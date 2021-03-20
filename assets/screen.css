@@ -20,19 +20,25 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	font-family: 'Raleway', sans-serif;
 	margin: 0;
-	padding:0;
+	padding:;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
-	align-content: center;
+	vertical-align:baseline;
+	text-align: center;
+
+
 }
 h1, p, label{
 	font-family: sans-serif;
-	padding: 20px;
+	padding:25px;
+
+}
+#age{
+	padding-left: 20px;
 }
 li {
-	padding:30px;
+	padding:0px;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
