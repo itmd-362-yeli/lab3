@@ -20,7 +20,6 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	font-family: 'Raleway', sans-serif;
 	margin: 0;
-	padding:;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
@@ -31,14 +30,21 @@ time, mark, audio, video {
 }
 h1, p, label{
 	font-family: sans-serif;
-	padding:25px;
+	padding-top:15px;
 
 }
 #age{
-	padding-left: 20px;
+	padding-left: 0px;
+	padding-bottom: 10px
+}
+#input-age-verification, #input-email{
+	padding-top: 20px;
 }
 li {
 	padding:0px;
+}
+#input-submit{
+	padding-top:20px;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
