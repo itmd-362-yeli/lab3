@@ -25,12 +25,10 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align:baseline;
 	text-align: center;
-
-
 }
 h1, p, label{
 	font-family: sans-serif;
-	padding-top:15px;
+	padding-top:15px; /* 20/16= */
 
 }
 #age{
@@ -39,16 +37,26 @@ h1, p, label{
 }
 #input-age-verification, #input-email{
 	padding-top: 20px;
-}
-li {
-	padding:0px;
+	text-align: left;
 }
 #input-submit{
 	padding-top:20px;
+	padding-bottom: 20px;
+	text-align: center;
+	color: #dbd9d9;
 }
-/* HTML5 display-role reset for older browsers */
+form{
+	background-color: #c1b9b9;
+}
+main{
+	padding-top: 0;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 30px;
+}
+	/* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
-footer, header, hgroup, main, menu, nav, section {
+footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 html {
@@ -70,5 +78,6 @@ q:before, q:after {
 }
 table {
 	border-collapse: collapse;
+	color: #7e7a7a;
 	border-spacing: 0;
 }
