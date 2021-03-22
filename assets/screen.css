@@ -17,7 +17,7 @@ html{
 	background-color: #7e7a7a;
 }
 h1, p, label{
-	font-family: 'Roboto',sans-serif, Georgia;
+	font-family:  'Roboto',sans-serif, Georgia;
 	padding-top:0.8333333333em; /* 15/18= 0.8333333333*/
 
 }
@@ -46,7 +46,7 @@ main{
 	padding-right: 2.7777777778em;
 	padding-bottom: 1.6666666667em;/*30/18 = 1.6666666667*/
 }
-@media screen and (min-width: 24.6666666667em) { /* 300/ 18 = 16.6666666667*/
+@media screen and (min-width: 16.6666666667em) { /* 300/ 18 = 16.6666666667*/
 	html{
 	text-align: left;
 }
